@@ -1,10 +1,8 @@
 require('dotenv').config()
 const express = require('express');
 const mongoose = require('mongoose');
-// const courseLib = require('./backend/lib/courseLib');
 const Configure = require('./backend/config/Configure');
 const dbconnect = require('./backend/lib/dbconnect');
-// const webrouter = require('./backend/routes/webroutes');
 const users = require('./backend/model/user');
 const { request } = require('express');
 
@@ -92,13 +90,6 @@ app.get("/api/logout", isAuthenticated, (req, res) => {
 })
 
 
-// app.get("/api/courses", isAuthenticated, courseLib.getAllCourses);
-// app.post("/api/courses", isAuthenticated, courseLib.createCourse);
-// app.put("/api/courses/:courseid", isAuthenticated, courseLib.updateCourse);
-// app.delete("/api/courses/:courseid", isAuthenticated, courseLib.deleteCourse);
-
-
-
 
 app.post('/api/register', function(req, res) {
     users.find({ email: req.body.email }, function(err, data) {
@@ -119,11 +110,6 @@ app.post('/api/register', function(req, res) {
         }
     });
 })
-
-
-
-
-
 
 
 
