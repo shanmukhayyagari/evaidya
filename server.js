@@ -92,10 +92,10 @@ app.get("/api/logout", isAuthenticated, (req, res) => {
 })
 
 
-app.get("/api/courses", isAuthenticated, courseLib.getAllCourses);
-app.post("/api/courses", isAuthenticated, courseLib.createCourse);
-app.put("/api/courses/:courseid", isAuthenticated, courseLib.updateCourse);
-app.delete("/api/courses/:courseid", isAuthenticated, courseLib.deleteCourse);
+// app.get("/api/courses", isAuthenticated, courseLib.getAllCourses);
+// app.post("/api/courses", isAuthenticated, courseLib.createCourse);
+// app.put("/api/courses/:courseid", isAuthenticated, courseLib.updateCourse);
+// app.delete("/api/courses/:courseid", isAuthenticated, courseLib.deleteCourse);
 
 
 
