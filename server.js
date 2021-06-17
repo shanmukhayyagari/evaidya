@@ -1,10 +1,10 @@
 require('dotenv').config()
 const express = require('express');
 const mongoose = require('mongoose');
-const courseLib = require('./backend/lib/courseLib');
+// const courseLib = require('./backend/lib/courseLib');
 const Configure = require('./backend/config/Configure');
 const dbconnect = require('./backend/lib/dbconnect');
-const webrouter = require('./backend/routes/webroutes');
+// const webrouter = require('./backend/routes/webroutes');
 const users = require('./backend/model/user');
 const { request } = require('express');
 
