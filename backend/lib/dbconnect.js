@@ -6,7 +6,5 @@ const dbOptions = {};
 module.exports = {
     moongoseconnect : function(){
         mongoose.connect(Configure.mongoConnectionString, {useUnifiedTopology: true, useNewUrlParser: true}).then(()=>console.log("db connected"));
-
         }
-
     }

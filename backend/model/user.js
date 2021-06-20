@@ -1,9 +1,20 @@
 const mongoose = require('mongoose');
 
 var userSchema = mongoose.Schema({
-username : String,
-email : String,
-password : String,
+username : {
+    type: String,
+    required: true,
+    trim: true
+},
+email : {
+    type: String,
+    required: true,
+    trim: true
+},
+password : {
+    type: String,
+    required: true,
+},
 isDeleted : {type:Boolean,default:false}
 
 
