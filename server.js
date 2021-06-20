@@ -128,6 +128,13 @@ app.get('/register', isNotAuthenticated, function(req, res) {
 
 
 
+app.get('/dashboard', isAuthenticated, function(req, res) {
+    res.send("this is dashboard");
+
+});
+
+
+
 
 app.listen(Configure.webPort, function() {
     console.log("server started");
