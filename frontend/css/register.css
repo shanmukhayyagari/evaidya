@@ -7,14 +7,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
   text-align: center;
 }
 
 .first {
   text-align: center;
   padding-top: 30px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
 }
 
 .first h1 {
@@ -25,7 +25,7 @@ body {
 
 .main {
   text-align: center;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
 }
 
 .main input,
@@ -39,7 +39,7 @@ button {
   font-size: 15px;
   color: white;
   margin-bottom: 20px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
 }
 
 .main span {
@@ -60,17 +60,17 @@ button {
   letter-spacing: 1px;
   font-weight: bold;
   margin-bottom: 40px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
 }
 
 .main button:hover {
   box-shadow: 2px 2px 5px #555;
   background-color: orange;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
 }
 
 .main input:hover {
   box-shadow: 2px 2px 5px rgb(99, 91, 105);
   background-color: #ddd;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
 }

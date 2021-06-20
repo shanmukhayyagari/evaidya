@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ button {
   font-size: 15px;
   color: white;
   margin-bottom: 40px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Changa", sans-serif;
 }
 
 .main span {
