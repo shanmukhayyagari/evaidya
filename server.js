@@ -125,6 +125,21 @@ app.get('/register', isNotAuthenticated, function(req, res) {
 
 });
 
+app.get('/sample', function(req, res) {
+    res.sendFile(__dirname + "/frontend/html/samplepage.html");
+});
+
+
+app.get('/evaidya/frontend/html/about.html', function(req, res) {
+    res.sendFile(__dirname + "/frontend/html/about.html");
+});
+
+app.get('/evaidya/frontend/html/faq.html', function(req, res) {
+    res.sendFile(__dirname + "/frontend/html/faq.html");
+});
+app.get('/evaidya/frontend/html/login.html', function(req, res) {
+    res.sendFile(__dirname + "/frontend/html/login.html");
+});
 
 
 
